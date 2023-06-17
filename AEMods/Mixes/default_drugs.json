@@ -1,0 +1,899 @@
+[
+    {
+      "id": "-1",
+      "ingrId": "DRUG-MARIHUANA",
+      "name": "Marihuana",
+      "image": "",
+      "isWet": false,
+      "toxicity": 0.5,
+      "strength": 2,
+      "mixStrength": 1,
+      "addiction": 0.8,
+      "type": "DRIED_PLANT",
+      "category": "DRUG",
+      "averageSellPrice": 10,
+      "knownAs": ["grass", "ganja", "weed", "MJ"],
+      "demandedIn": [
+        {
+          "area": "east oldtown",
+          "demand": 1.5,
+          "sector": "A"
+        },
+        {
+          "area": "west old town",
+          "demand": 1.3,
+          "sector": "A"
+        },
+        {
+          "area": "two towers",
+          "demand": 1,
+          "sector": "A"
+        },
+        {
+          "area": "old market",
+          "demand": 1,
+          "sector": "A"
+        },
+        {
+          "area": "stink",
+          "demand": 1.3,
+          "sector": "A"
+        },
+        {
+          "area": "supermarket",
+          "demand": 1.3,
+          "sector": "B"
+        },
+        {
+          "area": "kennel",
+          "demand": 1.3,
+          "sector": "A"
+        },
+        {
+          "area": "downtown",
+          "demand": 0.4,
+          "sector": "B"
+        },
+        {
+          "area": "west deadtown",
+          "demand": 0.4,
+          "sector": "B"
+        },
+        {
+          "area": "mid deadtown",
+          "demand": 0.3,
+          "sector": "B"
+        },
+        {
+          "area": "east deadtown",
+          "demand": 0.3,
+          "sector": "B"
+        },
+        {
+          "area": "eastern slums",
+          "demand": 1.7,
+          "sector": "A"
+        },
+        {
+          "area": "camp",
+          "demand": 1.5,
+          "sector": "A"
+        }
+      ],
+      "purchase": [
+        {
+          "active": true,
+          "location": "eddie",
+          "costs": 5
+        },
+        {
+          "active": false,
+          "location": "small lab",
+          "costs": 5
+        },
+        {
+          "active": false,
+  
+          "location": "large lab",
+          "costs": 3.57
+        },
+        {
+          "active": false,
+  
+          "location": "ghetto kush",
+          "costs": 0.61
+        },
+        {
+          "active": false,
+  
+          "location": "bong breaker",
+          "costs": 0.28
+        },
+        {
+          "active": false,
+  
+          "location": "firecracker",
+          "costs": 0.32
+        },
+        {
+          "active": false,
+  
+          "location": "stoner haze",
+          "costs": 0.4
+        },
+        {
+          "active": false,
+  
+          "location": "AK-420",
+          "costs": 0.33
+        },
+        {
+          "active": false,
+  
+          "location": "brainfuck",
+          "costs": 0.32
+        },
+        {
+          "active": false,
+  
+          "location": "dubai sativa",
+          "costs": 0.32
+        },
+        {
+          "active": false,
+  
+          "location": "skyscrapper",
+          "costs": 0.28
+        }
+      ],
+      "madeWith": [],
+      "makerId": "",
+      "public": true
+    },
+    {
+      "id": "-1",
+      "ingrId": "DRUG-AMPHETAMINE",
+      "name": "Amphetamine",
+      "image": "",
+      "isWet": false,
+      "toxicity": 4,
+      "strength": 2.5,
+      "mixStrength": 1.6,
+      "addiction": 1.7,
+      "type": "POWDER",
+      "category": "DRUG",
+      "averageSellPrice": 12,
+      "knownAs": ["amp", "fet", "speed"],
+      "demandedIn": [
+        {
+          "area": "east oldtown",
+          "demand": 1,
+          "sector": "A"
+        },
+        {
+          "area": "west oldtown",
+          "demand": 1.2,
+          "sector": "A"
+        },
+        {
+          "area": "two towers",
+          "demand": 1.6,
+          "sector": "A"
+        },
+        {
+          "area": "old market",
+          "demand": 1.4,
+          "sector": "A"
+        },
+        {
+          "area": "stink",
+          "demand": 1.5,
+          "sector": "A"
+        },
+        {
+          "area": "supermarket",
+          "demand": 0.3,
+          "sector": "B"
+        },
+        {
+          "area": "kennel",
+          "demand": 1.7,
+          "sector": "A"
+        },
+        {
+          "area": "downtown",
+          "demand": 0.6,
+          "sector": "B"
+        },
+        {
+          "area": "west deadtown",
+          "demand": 0.8,
+          "sector": "B"
+        },
+        {
+          "area": "mid deadtown",
+          "demand": 0.5,
+          "sector": "B"
+        },
+        {
+          "area": "mid deadtown",
+          "demand": 0.2,
+          "sector": "B"
+        },
+        {
+          "area": "bad asia",
+          "demand": 1.4,
+          "sector": "B"
+        },
+        {
+          "area": "eastern slums",
+          "demand": 1.3,
+          "sector": "A"
+        },
+        {
+          "area": "tower blocks",
+          "demand": 0.7,
+          "sector": "C"
+        }
+      ],
+      "purchase": [
+        {
+          "active": true,
+  
+          "location": "eddie",
+          "costs": 7
+        },
+        {
+          "active": false,
+  
+          "location": "small lab",
+          "costs": 6
+        },
+        {
+          "active": false,
+  
+          "location": "large lab",
+          "costs": 4.29
+        }
+      ],
+      "madeWith": [],
+      "makerId": "",
+      "public": true
+    },
+    {
+      "id": "-1",
+      "ingrId": "DRUG-ECSTASY",
+      "name": "Ecstasy",
+      "image": "",
+      "isWet": false,
+      "toxicity": 3.5,
+      "strength": 2,
+      "mixStrength": 1.3,
+      "addiction": 1.3,
+      "type": "PILL",
+      "category": "DRUG",
+      "averageSellPrice": 10,
+      "knownAs": ["candy", "MDMA"],
+      "demandedIn": [
+        {
+          "area": "two towers",
+          "demand": 1.2,
+          "sector": "A"
+        },
+        {
+          "area": "old market",
+          "demand": 0.4,
+          "sector": "A"
+        },
+        {
+          "area": "stink",
+          "demand": 0.6,
+          "sector": "A"
+        },
+        {
+          "area": "supermarket",
+          "demand": 0.5,
+          "sector": "B"
+        },
+        {
+          "area": "kennel",
+          "demand": 0.4,
+          "sector": "A"
+        },
+        {
+          "area": "west deadtown",
+          "demand": 0.8,
+          "sector": "B"
+        },
+        {
+          "area": "bad asia",
+          "demand": 1.3,
+          "sector": "B"
+        },
+        {
+          "area": "fancy hill",
+          "demand": 0.7,
+          "sector": "C"
+        }
+      ],
+      "purchase": [
+        {
+          "active": true,
+  
+          "location": "eddie",
+          "costs": 7
+        },
+        {
+          "active": false,
+  
+          "location": "small lab",
+          "costs": 6
+        },
+        {
+          "active": false,
+  
+          "location": "large lab",
+          "costs": 4.29
+        }
+      ],
+      "madeWith": [],
+      "makerId": "",
+      "public": true
+    },
+    {
+      "id": "-1",
+      "ingrId": "DRUG-CRYSTAL-METH",
+      "name": "Crystal Meth",
+      "image": "",
+      "isWet": false,
+      "toxicity": 5.5,
+      "strength": 3,
+      "mixStrength": 2.4,
+      "addiction": 3,
+      "type": "CRYSTAL",
+      "category": "DRUG",
+      "averageSellPrice": 14,
+      "knownAs": ["crystal", "meth"],
+      "demandedIn": [
+        {
+          "area": "two towers",
+          "demand": 1.15,
+          "sector": "A"
+        },
+        {
+          "area": "stink",
+          "demand": 0.3,
+          "sector": "A"
+        },
+        {
+          "area": "supermarket",
+          "demand": 1.3,
+          "sector": "B"
+        },
+        {
+          "area": "kennel",
+          "demand": 0.3,
+          "sector": "A"
+        },
+        {
+          "area": "downtown",
+          "demand": 2.2,
+          "sector": "B"
+        },
+        {
+          "area": "west deadtown",
+          "demand": 2,
+          "sector": "B"
+        },
+        {
+          "area": "mid deadtown",
+          "demand": 1.9,
+          "sector": "B"
+        },
+        {
+          "area": "east deadtown",
+          "demand": 2.2,
+          "sector": "B"
+        },
+        {
+          "area": "bad asia",
+          "demand": 1.8,
+          "sector": "B"
+        },
+        {
+          "area": "eastern slums",
+          "demand": 0.3,
+          "sector": "A"
+        },
+        {
+          "area": "tower blocks",
+          "demand": 0.6,
+          "sector": "C"
+        },
+        {
+          "area": "construction",
+          "demand": 0.5,
+          "sector": "C"
+        },
+        {
+          "area": "commune",
+          "demand": 0.7,
+          "sector": "C"
+        },
+        {
+          "area": "factory north",
+          "demand": 0.5,
+          "sector": "C"
+        },
+        {
+          "area": "camp",
+          "demand": 0.3,
+          "sector": "A"
+        }
+      ],
+      "purchase": [
+        {
+          "active": true,
+  
+          "location": "eddie",
+          "costs": 9
+        },
+        {
+          "active": false,
+  
+          "location": "small lab",
+          "costs": 8
+        },
+        {
+          "active": false,
+  
+          "location": "large lab",
+          "costs": 5.71
+        }
+      ],
+      "madeWith": [],
+      "makerId": "",
+      "public": true
+    },
+    {
+      "id": "-1",
+      "ingrId": "DRUG-COCAINE",
+      "name": "Cocaine",
+      "image": "",
+      "isWet": false,
+      "toxicity": 5,
+      "strength": 4,
+      "mixStrength": 2,
+      "addiction": 3,
+      "type": "POWDER",
+      "category": "DRUG",
+      "averageSellPrice": 45,
+      "knownAs": ["snow", "colombian", "coke"],
+      "demandedIn": [
+        {
+          "area": "downtown",
+          "demand": 0.2,
+          "sector": "B"
+        },
+        {
+          "area": "west deadtown",
+          "demand": 0.4,
+          "sector": "B"
+        },
+        {
+          "area": "mid deadtown",
+          "demand": 0.3,
+          "sector": "B"
+        },
+        {
+          "area": "bad asia",
+          "demand": 0.4,
+          "sector": "B"
+        },
+        {
+          "area": "tower blocks",
+          "demand": 1.2,
+          "sector": "C"
+        },
+        {
+          "area": "construction",
+          "demand": 1.2,
+          "sector": "C"
+        },
+        {
+          "area": "fancy hill",
+          "demand": 3,
+          "sector": "C"
+        },
+        {
+          "area": "commune",
+          "demand": 1.4,
+          "sector": "C"
+        },
+        {
+          "area": "factory south",
+          "demand": 1.5,
+          "sector": "C"
+        },
+        {
+          "area": "factory north",
+          "demand": 1.2,
+          "sector": "C"
+        }
+      ],
+      "purchase": [
+        {
+          "active": true,
+  
+          "location": "eddie",
+          "costs": 25
+        },
+        {
+          "active": false,
+  
+          "location": "small lab",
+          "costs": 23
+        },
+        {
+          "active": false,
+  
+          "location": "large lab",
+          "costs": 16.43
+        }
+      ],
+      "madeWith": [],
+      "makerId": "",
+      "public": true
+    },
+    {
+      "id": "-1",
+      "ingrId": "DRUG-HEROIN",
+      "name": "Heroin",
+      "image": "",
+      "isWet": false,
+      "toxicity": 6,
+      "strength": 4,
+      "mixStrength": 3,
+      "addiction": 4.5,
+      "type": "POWDER",
+      "category": "DRUG",
+      "averageSellPrice": 35,
+      "knownAs": ["hero", "china white"],
+      "demandedIn": [
+        {
+          "area": "supermarket",
+          "demand": 0.6,
+          "sector": "B"
+        },
+        {
+          "area": "kennel",
+          "demand": 0.2,
+          "sector": "A"
+        },
+        {
+          "area": "downtown",
+          "demand": 0.3,
+          "sector": "B"
+        },
+        {
+          "area": "mid deadtown",
+          "demand": 0.5,
+          "sector": "B"
+        },
+        {
+          "area": "east deadtown",
+          "demand": 0.7,
+          "sector": "B"
+        },
+        {
+          "area": "bad asia",
+          "demand": 0.7,
+          "sector": "B"
+        },
+        {
+          "area": "eastern slums",
+          "demand": 0.2,
+          "sector": "A"
+        },
+        {
+          "area": "tower blocks",
+          "demand": 1,
+          "sector": "C"
+        },
+        {
+          "area": "construction",
+          "demand": 0.7,
+          "sector": "C"
+        },
+        {
+          "area": "commune",
+          "demand": 2.2,
+          "sector": "C"
+        },
+        {
+          "area": "factory south",
+          "demand": 1.2,
+          "sector": "C"
+        },
+        {
+          "area": "factory north",
+          "demand": 1,
+          "sector": "C"
+        }
+      ],
+      "purchase": [
+        {
+          "active": true,
+  
+          "location": "eddie",
+          "costs": 17
+        },
+        {
+          "active": false,
+  
+          "location": "small lab",
+          "costs": 16
+        },
+        {
+          "active": false,
+  
+          "location": "large lab",
+          "costs": 11.43
+        }
+      ],
+      "madeWith": [],
+      "makerId": "",
+      "public": true
+    },
+    {
+      "id": "-1",
+      "ingrId": "ADDITIVE-FENTANYL",
+      "name": "Fentanyl",
+      "image": "",
+      "isWet": false,
+      "toxicity": 18,
+      "strength": 6,
+      "mixStrength": 3,
+      "addiction": 9,
+      "type": "POWDER",
+      "category": "DRUG",
+      "averageSellPrice": 0,
+      "knownAs": [],
+      "demandedIn": [],
+      "madeWith": [],
+      "purchase": [
+        { "active": true, "location": "eddie", "costs": 20 },
+        { "active": false, "location": "walther", "costs": 20 }
+      ],
+      "makerId": "",
+      "public": true
+    },
+    {
+      "id": "-1",
+      "ingrId": "DRUG-LSD-MIX",
+      "name": "LSD mix",
+      "image": "",
+      "isWet": false,
+      "toxicity": 1.2,
+      "strength": 2,
+      "mixStrength": 1,
+      "addiction": 1,
+      "type": "POWDER",
+      "category": "DRUG",
+      "averageSellPrice": 7,
+      "knownAs": ["acid"],
+      "demandedIn": [
+        {
+          "area": "two towers",
+          "demand": 0.5,
+          "sector": "A"
+        },
+        {
+          "area": "supermarket",
+          "demand": 0.6,
+          "sector": "B"
+        },
+        {
+          "area": "downtown",
+          "demand": 0.5,
+          "sector": "B"
+        },
+        {
+          "area": "west deadtown",
+          "demand": 0.6,
+          "sector": "B"
+        },
+        {
+          "area": "east deadtown",
+          "demand": 0.6,
+          "sector": "B"
+        },
+        {
+          "area": "bad asia",
+          "demand": 0.6,
+          "sector": "B"
+        },
+        {
+          "area": "tower blocks",
+          "demand": 0.4,
+          "sector": "C"
+        },
+        {
+          "area": "construction",
+          "demand": 0.5,
+          "sector": "C"
+        },
+        {
+          "area": "factory south",
+          "demand": 0.6,
+          "sector": "C"
+        },
+        {
+          "area": "factory north",
+          "demand": 0.6,
+          "sector": "C"
+        }
+      ],
+      "purchase": [
+        {
+          "active": true,
+  
+          "location": "eddie",
+          "costs": 4
+        },
+        {
+          "active": false,
+  
+          "location": "walther",
+          "costs": 4
+        }
+      ],
+      "madeWith": [],
+      "makerId": "",
+      "public": true
+    },
+    {
+      "id": "-1",
+      "ingrId": "DRUG-DMT",
+      "name": "DMT",
+      "image": "",
+      "isWet": false,
+      "toxicity": 1.6,
+      "strength": 2.5,
+      "mixStrength": 1.2,
+      "addiction": 3,
+      "type": "POWDER",
+      "category": "DRUG",
+      "averageSellPrice": 7,
+      "knownAs": [],
+      "demandedIn": [
+        {
+          "area": "east deadtown",
+          "demand": 0.7,
+          "sector": "B"
+        },
+        {
+          "area": "bad asia",
+          "demand": 0.8,
+          "sector": "B"
+        },
+        {
+          "area": "eastern slums",
+          "demand": 0.8,
+          "sector": "A"
+        },
+        {
+          "area": "fancy hill",
+          "demand": 0.5,
+          "sector": "C"
+        },
+        {
+          "area": "commune",
+          "demand": 0.7,
+          "sector": "C"
+        },
+        {
+          "area": "camp",
+          "demand": 0.8,
+          "sector": "A"
+        }
+      ],
+      "purchase": [
+        {
+          "active": true,
+  
+          "location": "eddie",
+          "costs": 5
+        },
+        {
+          "active": false,
+  
+          "location": "walther",
+          "costs": 5
+        }
+      ],
+      "madeWith": [],
+      "makerId": "",
+      "public": true
+    },
+    {
+      "id": "-1",
+      "ingrId": "DRUG-MUSHROOMS",
+      "name": "Mushrooms",
+      "image": "",
+      "isWet": false,
+      "toxicity": 0.6,
+      "strength": 1.5,
+      "mixStrength": 1,
+      "addiction": 1,
+      "type": "MUSHROOMS",
+      "category": "DRUG",
+      "averageSellPrice": 8,
+      "knownAs": ["shrooms"],
+      "demandedIn": [
+        {
+          "area": "two towers",
+          "demand": 0.5,
+          "sector": "A"
+        },
+        {
+          "area": "old market",
+          "demand": 0.4,
+          "sector": "A"
+        },
+        {
+          "area": "stink",
+          "demand": 0.6,
+          "sector": "A"
+        },
+        {
+          "area": "east deadtown",
+          "demand": 0.7,
+          "sector": "B"
+        },
+        {
+          "area": "eastern slums",
+          "demand": 0.8,
+          "sector": "A"
+        },
+        {
+          "area": "tower blocks",
+          "demand": 0.4,
+          "sector": "C"
+        },
+        {
+          "area": "commune",
+          "demand": 0.6,
+          "sector": "C"
+        },
+        {
+          "area": "factory north",
+          "demand": 0.6,
+          "sector": "C"
+        },
+        {
+          "area": "camp",
+          "demand": 0.8,
+          "sector": "A"
+        }
+      ],
+      "purchase": [
+        {
+          "active": true,
+  
+          "location": "eddie",
+          "costs": 4
+        },
+        {
+          "active": false,
+  
+          "location": "walther",
+          "costs": 4
+        }
+      ],
+      "madeWith": [],
+      "makerId": "",
+      "public": true
+    }
+  ]
+  
